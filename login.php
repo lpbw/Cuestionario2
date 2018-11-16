@@ -67,7 +67,7 @@ if($login!=""){
 							<input name="pass" placeholder="Password" class="common-input mt-10" required type="password">
 							<div class="banner-content text-center">
 							<button class="float-left primary-btn primary circle d-inline-flex align-items-center mt-10 ml-auto" name="entrar" type="submit"><span class="mr-10">Entrar</span><span class="lnr lnr-arrow-right"></span></button>
-							<button class="float-right primary-btn primary circle d-inline-flex align-items-center mt-10 ml-auto" name="inicio" type="button" onClick="window.location.href='index.php';"><span class="mr-10">Inicio</span><span class="lnr lnr-arrow-right"></span></button>
+							<button class="float-right primary-btn primary circle d-inline-flex align-items-center mt-10 ml-auto" name="inicio" type="button" onClick="window.location.href='index.php';"><span class="mr-10">Registrarse</span><span class="lnr lnr-arrow-right"></span></button>
 							</div>
 							<div class="alert-msg"></div>
 						</form>

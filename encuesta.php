@@ -957,7 +957,7 @@ function mostrar3(id) {
 											<? }if($res3['id']==17){
 											$r17=explode("|", $res5['valor']);
 											?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($r17[0]=="Si"){echo "checked";}?> onClick="mostrar(1)"> Si.<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($r17[0]=="Si"){echo "checked";}?> onClick="mostrar(1)"> Si<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No" <? if($r17[0]=="No"){echo "checked";}?> onClick="mostrar(0)"> No
 											<br/><input type="text" name="r17_1" class="form-control" <? if($r17[0]=="Si"){echo "style=\"visibility:visible\"";}?> style="visibility:hidden"  placeholder="Proporcione detalles" value="<? echo $r17[1]?>" />
 											<? }if($res3['id']==18){?>
@@ -1015,21 +1015,21 @@ function mostrar3(id) {
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sobresaliente" <? if($res5['valor']=="Sobresaliente"){echo "checked";}?>> Sobresaliente
 											
 											<? }if($res3['id']==33){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sí, con claridad." <? if($res5['valor']=="Sí, con claridad."){echo "checked";}?>> Sí, con claridad.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Tenemos alguna idea." <? if($res5['valor']=="Tenemos alguna idea."){echo "checked";}?>> Tenemos alguna idea.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No tenemos idea." <? if($res5['valor']=="No tenemos idea."){echo "checked";}?>> No tenemos idea.
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sí, con claridad." <? if($res5['valor']=="Sí, con claridad."){echo "checked";}?>> Sí, con claridad<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Tenemos alguna idea." <? if($res5['valor']=="Tenemos alguna idea."){echo "checked";}?>> Tenemos alguna idea<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No tenemos idea." <? if($res5['valor']=="No tenemos idea."){echo "checked";}?>> No tenemos idea
 											<? } if($res3['id']==34){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sí, con claridad." <? if($res5['valor']=="Sí, con claridad."){echo "checked";}?>> Sí, con claridad.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Tenemos alguna idea." <? if($res5['valor']=="Tenemos alguna idea."){echo "checked";}?>> Tenemos alguna idea.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No tenemos idea." <? if($res5['valor']=="No tenemos idea."){echo "checked";}?>> No tenemos idea.
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sí, con claridad." <? if($res5['valor']=="Sí, con claridad."){echo "checked";}?>> Sí, con claridad<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Tenemos alguna idea." <? if($res5['valor']=="Tenemos alguna idea."){echo "checked";}?>> Tenemos alguna idea<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No tenemos idea." <? if($res5['valor']=="No tenemos idea."){echo "checked";}?>> No tenemos idea
 											
 											<? } if($res3['id']==37){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($res5['valor']=="Si"){echo "checked";}?>> Si.<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($res5['valor']=="Si"){echo "checked";}?>> Si<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No" <? if($res5['valor']=="No"){echo "checked";}?>> No
 											<? } if($res3['id']==38){
 											$r38=explode("|", $res5['valor']);
 											?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($r38[0]=="Si"){echo "checked";}?> onClick="mostrar2(1)"> Si.<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si" <? if($r38[0]=="Si"){echo "checked";}?> onClick="mostrar2(1)"> Si<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No" <? if($r38[0]=="No"){echo "checked";}?> onClick="mostrar2(0)"> No
 											
 											<input type="text" name="r38_1" id="r38_1" class="form-control" value="<? echo $r38[1]?>"  />
@@ -1041,11 +1041,11 @@ function mostrar3(id) {
 											<table class="table">
                                        			<thead>
                                             		<tr>
-                                                		<td align="center" class="text-heading">2013</td>
                                                 		<td align="center" class="text-heading">2014</td>
                                                 		<td align="center" class="text-heading">2015</td>
                                                 		<td align="center" class="text-heading">2016</td>
-														<td align="center" class="text-heading">2017</td>
+                                                		<td align="center" class="text-heading">2017</td>
+														<td align="center" class="text-heading">2018</td>
                                            	 		</tr>
 												</thead>
                                         		<tbody>
@@ -1068,9 +1068,9 @@ function mostrar3(id) {
                                        			<thead>
                                             		<tr>
 														<td>&nbsp;</td>
-                                                		<td align="center" class="text-heading">2015</td>
                                                 		<td align="center" class="text-heading">2016</td>
-														<td align="center" class="text-heading">2017</td>
+                                                		<td align="center" class="text-heading">2017</td>
+														<td align="center" class="text-heading">2018</td>
                                            	 		</tr>
 												</thead>
                                         		<tbody>
@@ -1117,12 +1117,12 @@ function mostrar3(id) {
                                				</div>
 											
 											<? }if($res3['id']==41){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Claramente definida (solo hace falta actualizar)." <? if($res5['valor']=="Claramente definida (solo hace falta actualizar)."){echo "checked";}?>> Claramente definida (solo hace falta actualizar).<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Parcialmente definida." <? if($res5['valor']=="Parcialmente definida."){echo "checked";}?>> Parcialmente definida.<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Claramente definida (solo hace falta actualizar)." <? if($res5['valor']=="Claramente definida (solo hace falta actualizar)."){echo "checked";}?>> Claramente definida (solo hace falta actualizar)<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Parcialmente definida." <? if($res5['valor']=="Parcialmente definida."){echo "checked";}?>> Parcialmente definida<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No está clara / No existe" <? if($res5['valor']=="No está clara / No existe"){echo "checked";}?>> No está clara / No existe
 											
 											<? }if($res3['id']==42){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Consistentemente en los últimos años." <? if($res5['valor']=="Consistentemente en los últimos años."){echo "checked";}?>> Consistentemente en los últimos años.<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Consistentemente en los últimos años." <? if($res5['valor']=="Consistentemente en los últimos años."){echo "checked";}?>> Consistentemente en los últimos años<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Esporádicamente" <? if($res5['valor']=="Esporádicamente"){echo "checked";}?>> Esporádicamente<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Nunca se ha realizado" <? if($res5['valor']=="Nunca se ha realizado"){echo "checked";}?>> Nunca se ha realizado
 											
@@ -1146,9 +1146,9 @@ function mostrar3(id) {
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Adecuado" <? if($res5['valor']=="Adecuado"){echo "checked";}?>> Adecuado<br/>
 											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Sobresaliente" <? if($res5['valor']=="Sobresaliente"){echo "checked";}?>> Sobresaliente
 											<? }if($res3['id']==51){?>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si, de manera sistemática y con procesos maduros." <? if($res5['valor']=="Si, de manera sistemática y con procesos maduros."){echo "checked";}?>> Si, de manera sistemática y con procesos maduros.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Esporádicamente y de forma parcial." <? if($res5['valor']=="Esporádicamente y de forma parcial."){echo "checked";}?>> Esporádicamente y de forma parcial.<br/>
-											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No, en lo absoluto." <? if($res5['valor']=="No, en lo absoluto."){echo "checked";}?>> No, en lo absoluto.
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Si, de manera sistemática y con procesos maduros." <? if($res5['valor']=="Si, de manera sistemática y con procesos maduros."){echo "checked";}?>> Si, de manera sistemática y con procesos maduros<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="Esporádicamente y de forma parcial." <? if($res5['valor']=="Esporádicamente y de forma parcial."){echo "checked";}?>> Esporádicamente y de forma parcial<br/>
+											<input type="radio" name="r<? echo $res3['id']?>" id="r<? echo $res3['id']?>" class="confirm-radio" value="No, en lo absoluto." <? if($res5['valor']=="No, en lo absoluto."){echo "checked";}?>> No, en lo absoluto
 											<? }if($res3['id']==54){
 											$r54=explode("|", $res5['valor']);
 											?>
@@ -1157,11 +1157,11 @@ function mostrar3(id) {
                                        			<thead>
                                             		<tr>
 														<td align="center" class="text-heading">Indicador</td>
-                                                		<td align="center" class="text-heading">2013</td>
                                                 		<td align="center" class="text-heading">2014</td>
                                                 		<td align="center" class="text-heading">2015</td>
                                                 		<td align="center" class="text-heading">2016</td>
-														<td align="center" class="text-heading">2017</td>
+                                                		<td align="center" class="text-heading">2017</td>
+														<td align="center" class="text-heading">2018</td>
                                            	 		</tr>
 												</thead>
                                         		<tbody>
